@@ -12,9 +12,7 @@ public class AliquotNumbers {
     
     public static void main(String[] args) {
     	AliquotNumbers aliquot = new AliquotNumbers();
-    	int first = 40;
-    	int second = 20;
-    	aliquot.isFirstAliquot(first, second);
+    	aliquot.isFirstAliquot(40, 20);
     	aliquot.isFirstAliquot(23, 32);
     }
 }

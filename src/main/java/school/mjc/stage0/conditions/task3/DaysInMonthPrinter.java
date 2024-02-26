@@ -33,7 +33,18 @@ public class DaysInMonthPrinter {
     
     public static void main(String[] args) {
     	DaysInMonthPrinter dayMonth = new DaysInMonthPrinter();
-    	int month = 1;
-    	dayMonth.amountOfDays(month);
+    	dayMonth.amountOfDays(1);
+    	dayMonth.amountOfDays(2);
+    	dayMonth.amountOfDays(3);
+    	dayMonth.amountOfDays(4);
+    	dayMonth.amountOfDays(5);
+    	dayMonth.amountOfDays(6);
+    	dayMonth.amountOfDays(7);
+    	dayMonth.amountOfDays(8);
+    	dayMonth.amountOfDays(9);
+    	dayMonth.amountOfDays(10);
+    	dayMonth.amountOfDays(11);
+    	dayMonth.amountOfDays(12);
+    	dayMonth.amountOfDays(13);
     }
 }

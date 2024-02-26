@@ -31,10 +31,9 @@ public class SalaryCalculator {
     
     public static void main(String[] args) {
     	SalaryCalculator calculator = new SalaryCalculator();
-    	int salary = 21000;
-    	calculator.calculateSalary(salary);
     	calculator.calculateSalary(8000);
     	calculator.calculateSalary(16000);
+     	calculator.calculateSalary(21000);
     	calculator.calculateSalary(-6000);
     	
     }

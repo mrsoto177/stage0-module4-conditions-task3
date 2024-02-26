@@ -11,8 +11,7 @@ public class IsEnglishSymbolDeterminer {
     
     public static void main(String[] args) {
     	IsEnglishSymbolDeterminer symbol = new IsEnglishSymbolDeterminer();
-    	char simb = '{' ;
-    	symbol.isEnglishSymbol(simb);
+    	symbol.isEnglishSymbol('{');
     	symbol.isEnglishSymbol('e');
     }
 }
