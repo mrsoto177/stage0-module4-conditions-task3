@@ -15,5 +15,6 @@ public class AliquotNumbers {
     	int first = 40;
     	int second = 20;
     	aliquot.isFirstAliquot(first, second);
+    	aliquot.isFirstAliquot(23, 32);
     }
 }

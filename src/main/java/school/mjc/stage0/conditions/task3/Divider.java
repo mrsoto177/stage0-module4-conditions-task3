@@ -5,19 +5,20 @@ public class Divider {
     	
     	if (number % 5 == 0 && number % 11 == 0) {
     		System.out.println("Dividable");
-    	} else {
+    	} else if (number % 5 > 0 && number % 11 > 0) {
     		System.out.println("Non-dividable");
     	}
     	
-    	if (number == 0) {
+    	else if (number == 0) {
     		System.out.println("cannot divide by zero");
     	}
     }
     
     public static void main(String[] args) {
     	Divider dividable = new Divider();
-    	int number =55;
-    	dividable.isDividableBy5And11(number);
+    	dividable.isDividableBy5And11(55);
+    	dividable.isDividableBy5And11(23);
+    	dividable.isDividableBy5And11(0);
     }
     
 }

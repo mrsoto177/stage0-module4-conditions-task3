@@ -11,7 +11,7 @@ public class AlphabeticCharacters {
     
     public static void main(String[] args) {
     	AlphabeticCharacters determiner = new AlphabeticCharacters();
-    	char character = 'z';
-    	determiner.vowelDeterminer(character);
+    	determiner.vowelDeterminer('r');
+    	determiner.vowelDeterminer('a');
     }
 }
